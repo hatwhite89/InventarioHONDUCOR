@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="858c9e7f-d059-4c6d-bca0-085c1f2cae94" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inventariohonducorapp/static/pdf/manual_usuario.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inventariohonducorapp/migrations/0051_tb_empleado_puesto.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inventariohonducorapp/migrations/0052_tb_vehiculo_agencia.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/inventario/busca_empleado_mobiliario_asignado2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/inventario/mobiliario_prestadoe3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventariohonducorapp/static/imagenes/agregar.png" afterPath="$PROJECT_DIR$/inventariohonducorapp/static/imagenes/agregar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InventarioHONDUCOR/settings.py" afterPath="$PROJECT_DIR$/InventarioHONDUCOR/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InventarioHONDUCOR/urls.py" afterPath="$PROJECT_DIR$/InventarioHONDUCOR/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventariohonducorapp/admin.py" afterPath="$PROJECT_DIR$/inventariohonducorapp/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventariohonducorapp/excel.py" afterPath="$PROJECT_DIR$/inventariohonducorapp/excel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventariohonducorapp/forms.py" afterPath="$PROJECT_DIR$/inventariohonducorapp/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventariohonducorapp/models.py" afterPath="$PROJECT_DIR$/inventariohonducorapp/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventariohonducorapp/pdf.py" afterPath="$PROJECT_DIR$/inventariohonducorapp/pdf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inventariohonducorapp/views.py" afterPath="$PROJECT_DIR$/inventariohonducorapp/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/alerta_existencias.html" afterPath="$PROJECT_DIR$/templates/inventario/alerta_existencias.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/asignar_inmueble.html" afterPath="$PROJECT_DIR$/templates/inventario/asignar_inmueble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/asignar_mobiliario.html" afterPath="$PROJECT_DIR$/templates/inventario/asignar_mobiliario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/asignar_mobiliario2_detalle.html" afterPath="$PROJECT_DIR$/templates/inventario/asignar_mobiliario2_detalle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/asignar_mobiliario2_empleado.html" afterPath="$PROJECT_DIR$/templates/inventario/asignar_mobiliario2_empleado.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/asignar_vehiculo.html" afterPath="$PROJECT_DIR$/templates/inventario/asignar_vehiculo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/asignar_vehiculo_empleado.html" afterPath="$PROJECT_DIR$/templates/inventario/asignar_vehiculo_empleado.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/bitacora_det_entrada.html" afterPath="$PROJECT_DIR$/templates/inventario/bitacora_det_entrada.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/bitacora_entrada.html" afterPath="$PROJECT_DIR$/templates/inventario/bitacora_entrada.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/bitacora_entrada_fecha.html" afterPath="$PROJECT_DIR$/templates/inventario/bitacora_entrada_fecha.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/bitacora_inmueble.html" afterPath="$PROJECT_DIR$/templates/inventario/bitacora_inmueble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/bitacora_login.html" afterPath="$PROJECT_DIR$/templates/inventario/bitacora_login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/bitacora_mobiliario.html" afterPath="$PROJECT_DIR$/templates/inventario/bitacora_mobiliario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/bitacora_mobiliario_fecha.html" afterPath="$PROJECT_DIR$/templates/inventario/bitacora_mobiliario_fecha.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/bitacora_salida.html" afterPath="$PROJECT_DIR$/templates/inventario/bitacora_salida.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/bitacora_salida_fecha.html" afterPath="$PROJECT_DIR$/templates/inventario/bitacora_salida_fecha.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/bitacora_vehiculo.html" afterPath="$PROJECT_DIR$/templates/inventario/bitacora_vehiculo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/bitacora_vehiculo_fecha.html" afterPath="$PROJECT_DIR$/templates/inventario/bitacora_vehiculo_fecha.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_agencia_mobiliario.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_agencia_mobiliario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_articulo.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_articulo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_articulo_detalle.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_articulo_detalle.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_articulos_solo.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_articulos_solo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_empleado_inmueble.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_empleado_inmueble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_empleado_mobiliario.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_empleado_mobiliario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_empleado_mobiliarioP.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_empleado_mobiliarioP.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_mobiliario.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_mobiliario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_mobiliario2.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_mobiliario2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_mobiliarioPrestado.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_mobiliarioPrestado.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_mobiliario_index.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_mobiliario_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/buscar_vehiculo.html" afterPath="$PROJECT_DIR$/templates/inventario/buscar_vehiculo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/dar_baja_articulo.html" afterPath="$PROJECT_DIR$/templates/inventario/dar_baja_articulo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/dar_baja_mobiliario.html" afterPath="$PROJECT_DIR$/templates/inventario/dar_baja_mobiliario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/dar_baja_vehiculo.html" afterPath="$PROJECT_DIR$/templates/inventario/dar_baja_vehiculo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/descargar_inmueble.html" afterPath="$PROJECT_DIR$/templates/inventario/descargar_inmueble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/descargar_mobiliario.html" afterPath="$PROJECT_DIR$/templates/inventario/descargar_mobiliario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/descargar_vehiculo.html" afterPath="$PROJECT_DIR$/templates/inventario/descargar_vehiculo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/entradas_fecha.html" afterPath="$PROJECT_DIR$/templates/inventario/entradas_fecha.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/grafico_2.html" afterPath="$PROJECT_DIR$/templates/inventario/grafico_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/grafico_mobiliario.html" afterPath="$PROJECT_DIR$/templates/inventario/grafico_mobiliario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/grafico_mobiliario2.html" afterPath="$PROJECT_DIR$/templates/inventario/grafico_mobiliario2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/grafico_vehiculo.html" afterPath="$PROJECT_DIR$/templates/inventario/grafico_vehiculo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/graficos.html" afterPath="$PROJECT_DIR$/templates/inventario/graficos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/index.html" afterPath="$PROJECT_DIR$/templates/inventario/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/inventario_mobiliario_agencia.html" afterPath="$PROJECT_DIR$/templates/inventario/inventario_mobiliario_agencia.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/lista_existencias_articulosPDF.html" afterPath="$PROJECT_DIR$/templates/inventario/lista_existencias_articulosPDF.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/lista_vehiculo_descargar.html" afterPath="$PROJECT_DIR$/templates/inventario/lista_vehiculo_descargar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_articulosEntradas.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_articulosEntradas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_entradas_modificar.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_entradas_modificar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_incidente_articulo.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_incidente_articulo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_inmueble_asignar.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_inmueble_asignar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_inmueble_descargar.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_inmueble_descargar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_inmueble_index.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_inmueble_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_inmueble_modificar.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_inmueble_modificar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_mobiliario_prestado_solo.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_mobiliario_prestado_solo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_modificar_articulo.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_modificar_articulo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_modificar_mobiliario.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_modificar_mobiliario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_proveedor.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_proveedor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_proveedor_modificar.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_proveedor_modificar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_vehiculos_asinar.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_vehiculos_asinar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/listar_vehiculos_modificar.html" afterPath="$PROJECT_DIR$/templates/inventario/listar_vehiculos_modificar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/login.html" afterPath="$PROJECT_DIR$/templates/inventario/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/modificar_articulo.html" afterPath="$PROJECT_DIR$/templates/inventario/modificar_articulo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/modificar_entrada.html" afterPath="$PROJECT_DIR$/templates/inventario/modificar_entrada.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/modificar_inmueble.html" afterPath="$PROJECT_DIR$/templates/inventario/modificar_inmueble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/modificar_mobiliario.html" afterPath="$PROJECT_DIR$/templates/inventario/modificar_mobiliario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/modificar_vehiculo.html" afterPath="$PROJECT_DIR$/templates/inventario/modificar_vehiculo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/nueva_entrada.html" afterPath="$PROJECT_DIR$/templates/inventario/nueva_entrada.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/nueva_salida.html" afterPath="$PROJECT_DIR$/templates/inventario/nueva_salida.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/nuevo_articulo.html" afterPath="$PROJECT_DIR$/templates/inventario/nuevo_articulo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/nuevo_detalle_articulo.html" afterPath="$PROJECT_DIR$/templates/inventario/nuevo_detalle_articulo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/nuevo_detalle_salida.html" afterPath="$PROJECT_DIR$/templates/inventario/nuevo_detalle_salida.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/nuevo_detalle_salida_get.html" afterPath="$PROJECT_DIR$/templates/inventario/nuevo_detalle_salida_get.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/nuevo_inmueble.html" afterPath="$PROJECT_DIR$/templates/inventario/nuevo_inmueble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/nuevo_mobiliario.html" afterPath="$PROJECT_DIR$/templates/inventario/nuevo_mobiliario.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/nuevo_proveedor.html" afterPath="$PROJECT_DIR$/templates/inventario/nuevo_proveedor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/nuevo_vehiculo" afterPath="$PROJECT_DIR$/templates/inventario/nuevo_vehiculo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/prueba.html" afterPath="$PROJECT_DIR$/templates/inventario/prueba.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/registrar_incidencia_articulo.html" afterPath="$PROJECT_DIR$/templates/inventario/registrar_incidencia_articulo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/salidas_fecha.html" afterPath="$PROJECT_DIR$/templates/inventario/salidas_fecha.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/ver_det_incidencias.html" afterPath="$PROJECT_DIR$/templates/inventario/ver_det_incidencias.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/ver_entradas.html" afterPath="$PROJECT_DIR$/templates/inventario/ver_entradas.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/ver_existencias.html" afterPath="$PROJECT_DIR$/templates/inventario/ver_existencias.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/ver_no_existencias.html" afterPath="$PROJECT_DIR$/templates/inventario/ver_no_existencias.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inventario/ver_salidas.html" afterPath="$PROJECT_DIR$/templates/inventario/ver_salidas.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/InventarioHONDUCOR$Test__templates_inventario_modificar_articulo_html.coverage" NAME="Test: templates.inventario.modificar_articulo.html Coverage Results" MODIFIED="1497498505600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/InventarioHONDUCOR$Test__templates_inventario_nuevo_detalle_articulo_html.coverage" NAME="Test: templates.inventario.nuevo_detalle_articulo.html Coverage Results" MODIFIED="1494988917046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/InventarioHONDUCOR$views.coverage" NAME="views Coverage Results" MODIFIED="1495694871617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InventarioHONDUCORAPP" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="InventarioHONDUCOR" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inventariohonducorapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35853">
+              <caret line="2151" column="37" lean-forward="false" selection-start-line="2151" selection-start-column="37" selection-end-line="2151" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1500161385374" expanded="true" signature="3388:3482" ph="select nombr... inventariohonducorapp_tb_articulo" />
+                <marker date="1500161385374" expanded="true" signature="3802:3809" ph="select nombr... inventariohonducorapp_tb_articulo" />
+                <marker date="1500161385374" expanded="true" signature="3802:3965" ph="select a.nom... inventariohonducorapp_tb_detalle_salida" />
+                <marker date="1500161385374" expanded="true" signature="3802:4022" ph="select a.nom... inventariohonducorapp_tb_detalle_salida" />
+                <marker date="1500161385374" expanded="true" signature="3802:4038" ph="select a.nom... inventariohonducorapp_tb_detalle_salida" />
+                <marker date="1500161385374" expanded="true" signature="3802:4049" ph="select a.nom... inventariohonducorapp_tb_detalle_salida" />
+                <marker date="1500161385374" expanded="true" signature="3802:4141" ph="select a.nom... inventariohonducorapp_tb_detalle_salida" />
+                <marker date="1500161385374" expanded="true" signature="4814:5017" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+                <marker date="1500161385374" expanded="true" signature="4814:5159" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+                <marker date="1500161385374" expanded="true" signature="4814:5180" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+                <marker date="1500161385374" expanded="true" signature="5817:6169" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+                <marker date="1500161385374" expanded="true" signature="5817:6190" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+                <marker date="1500161385374" expanded="true" signature="5817:6193" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+                <marker date="1500161385374" expanded="true" signature="6838:6845" ph="select nombr... inventariohonducorapp_tb_articulo" />
+                <marker date="1500161385374" expanded="true" signature="6838:7043" ph="select c.nom... inventariohonducorapp_tb_mobiliario" />
+                <marker date="1500161385374" expanded="true" signature="7619:7824" ph="select m.ubi... inventariohonducorapp_tb_mobiliario" />
+                <marker date="1500161385374" expanded="true" signature="8300:8404" ph="select tipo_... inventariohonducorapp_tb_vehiculo" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InventarioHONDUCOR/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3317">
+              <caret line="222" column="79" lean-forward="false" selection-start-line="222" selection-start-column="59" selection-end-line="222" selection-end-column="79" />
+              <folding>
+                <element signature="e#842#883#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventariohonducorapp/excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3910">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="e#98#109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdf.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inventariohonducorapp/pdf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-850">
+              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+              <folding>
+                <marker date="1500162688937" expanded="true" signature="48000:48267" ph="select m.id,... inventariohonducorapp_tb_mobiliario" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BuscarAticulosSolamente</find>
+      <find>verlista</find>
+      <find>pruebaListview</find>
+      <find>existencia</find>
+      <find>entradas</find>
+      <find>salidas</find>
+      <find>salida</find>
+      <find>SALIDA</find>
+      <find>bitacora</find>
+      <find>nuevo art</find>
+      <find>nuevo</find>
+      <find>REGISTRADO P</find>
+      <find>codigode</find>
+      <find>documentacion</find>
+      <find>document</find>
+      <find>static</find>
+      <find>nueva entra</find>
+      <find>mobiliarioSolo</find>
+      <find>barra</find>
+      <find>existen</find>
+      <find>EXCEL</find>
+      <find>execute</find>
+      <find>xlsmprestado</find>
+      <find>mobiliario</find>
+      <find>ListarMobiliarioPrestadoSolo</find>
+      <find>form</find>
+      <find>vehiculo</find>
+      <find>login</find>
+      <find>&lt;ol</find>
+      <find>ReporteMobiliarioPDF</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/inventario/descargar_vehiculo.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/entradas_fecha.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/grafico_2.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/grafico_mobiliario.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/grafico_mobiliario2.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/grafico_vehiculo.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/graficos.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/inventario_mobiliario_agencia.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/lista_existencias_articulosPDF.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/lista_vehiculo_descargar.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_articulosEntradas.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_entradas_modificar.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_incidente_articulo.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_inmueble_asignar.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_inmueble_descargar.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_inmueble_index.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_inmueble_modificar.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_mobiliario_prestado_solo.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_modificar_articulo.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_modificar_mobiliario.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_proveedor.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_proveedor_modificar.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_vehiculos_asinar.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/listar_vehiculos_modificar.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/mobiliario_prestadoe3.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/modificar_articulo.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/modificar_entrada.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/modificar_inmueble.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/modificar_mobiliario.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/modificar_vehiculo.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/nueva_entrada.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/nueva_salida.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/nuevo_articulo.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/nuevo_detalle_articulo.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/nuevo_detalle_salida.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/nuevo_detalle_salida_get.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/nuevo_inmueble.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/nuevo_mobiliario.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/nuevo_proveedor.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/nuevo_vehiculo" />
+        <option value="$PROJECT_DIR$/templates/inventario/prueba.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/registrar_incidencia_articulo.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/salidas_fecha.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/ver_det_incidencias.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/ver_entradas.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/ver_existencias.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/ver_no_existencias.html" />
+        <option value="$PROJECT_DIR$/templates/inventario/ver_salidas.html" />
+        <option value="$PROJECT_DIR$/inventariohonducorapp/views.py" />
+        <option value="$PROJECT_DIR$/inventariohonducorapp/excel.py" />
+        <option value="$PROJECT_DIR$/inventariohonducorapp/pdf.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InventarioHONDUCOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InventarioHONDUCOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InventarioHONDUCOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InventarioHONDUCOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inventario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InventarioHONDUCOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InventarioHONDUCOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inventariohonducorapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InventarioHONDUCOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InventarioHONDUCOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InventarioHONDUCOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Erick\PycharmProjects\InventarioHONDUCOR\templates\inventario" />
+      <recent name="C:\Users\Erick\PycharmProjects\InventarioHONDUCOR\inventariohonducorapp\media\imagenes" />
+      <recent name="C:\Users\Erick\PycharmProjects\InventarioHONDUCOR\templates" />
+      <recent name="C:\Users\Erick\PycharmProjects\InventarioHONDUCOR\InventarioHONDUCORAPP\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Erick\PycharmProjects\InventarioHONDUCOR\inventariohonducorapp\static\pdf" />
+      <recent name="C:\Users\Erick\PycharmProjects\InventarioHONDUCOR\inventariohonducorapp\static\imagenes" />
+      <recent name="C:\Users\Erick\PycharmProjects\InventarioHONDUCOR\templates\inventario" />
+      <recent name="C:\Users\Erick\PycharmProjects\InventarioHONDUCOR\media\imagenes" />
+      <recent name="C:\Users\Erick\PycharmProjects\InventarioHONDUCOR\inventariohonducorapp\static\datepicker" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.InventarioHONDUCOR">
+    <configuration default="false" name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InventarioHONDUCORAPP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InventarioHONDUCOR" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InventarioHONDUCORAPP/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test: templates.inventario.modificar_articulo.html" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InventarioHONDUCOR" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="templates.inventario.modificar_articulo.html" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InventarioHONDUCOR" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InventarioHONDUCOR" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InventarioHONDUCOR" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InventarioHONDUCOR" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InventarioHONDUCOR" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="InventarioHONDUCOR" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InventarioHONDUCOR" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InventarioHONDUCOR" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test: templates.inventario.nuevo_detalle_articulo.html" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InventarioHONDUCOR" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="templates.inventario.nuevo_detalle_articulo.html" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InventarioHONDUCOR" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="InventarioHONDUCOR.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="InventarioHONDUCOR" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Django tests.Test: templates.inventario.nuevo_detalle_articulo.html" />
+      <item index="1" class="java.lang.String" itemvalue="Django server.InventarioHONDUCOR" />
+      <item index="2" class="java.lang.String" itemvalue="Python.views" />
+      <item index="3" class="java.lang.String" itemvalue="Django tests.Test: templates.inventario.modificar_articulo.html" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Django tests.Test: templates.inventario.modificar_articulo.html" />
+        <item index="1" class="java.lang.String" itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="858c9e7f-d059-4c6d-bca0-085c1f2cae94" name="Default" comment="" />
+      <created>1493870861850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1493870861850</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__templates_inventario_modificar_articulo_html - 2017.06.14 at 15h 28m 52s.xml">
+      <configuration name="Test: templates.inventario.modificar_articulo.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_inventario_modificar_articulo_html - 2017.06.14 at 18h 55m 25s.xml">
+      <configuration name="Test: templates.inventario.modificar_articulo.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_inventario_modificar_articulo_html - 2017.06.14 at 21h 47m 41s.xml">
+      <configuration name="Test: templates.inventario.modificar_articulo.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_inventario_modificar_articulo_html - 2017.06.14 at 21h 48m 30s.xml">
+      <configuration name="Test: templates.inventario.modificar_articulo.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_inventario_nuevo_detalle_articulo_html - 2017.05.16 at 17h 58m 27s.xml">
+      <configuration name="Test: templates.inventario.nuevo_detalle_articulo.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_inventario_nuevo_detalle_articulo_html - 2017.05.16 at 19h 36m 07s.xml">
+      <configuration name="Test: templates.inventario.nuevo_detalle_articulo.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__templates_inventario_nuevo_detalle_articulo_html - 2017.05.16 at 20h 42m 00s.xml">
+      <configuration name="Test: templates.inventario.nuevo_detalle_articulo.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32496512" sideWeight="0.484957" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2034188" sideWeight="0.35022694" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19804741" sideWeight="0.64977306" order="2" side_tool="false" content_ui="tabs" x="7" y="265" width="1366" height="380" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.49426934" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37517434" sideWeight="0.6418338" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.49092284" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1704871" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42538354" sideWeight="0.7919818" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.053706504" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.043696277" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@InventarioHONDUCOR" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24965133" sideWeight="0.63395417" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5662848" sideWeight="0.49394855" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32496512" sideWeight="0.484957" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2034188" sideWeight="0.35022694" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@InventarioHONDUCOR" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21617852" sideWeight="0.63395417" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32775453" sideWeight="0.49426934" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37517434" sideWeight="0.6418338" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11157601" sideWeight="0.64977306" order="2" side_tool="false" content_ui="tabs" x="7" y="265" width="1366" height="380" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.49092284" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1525788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.7919818" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.053706504" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5662848" sideWeight="0.49394855" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.043696277" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/inventariohonducorapp/admin.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/inventario/grafico_mobiliario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="556" column="21" lean-forward="false" selection-start-line="556" selection-start-column="21" selection-end-line="556" selection-end-column="21" />
+          <folding>
+            <marker date="1500152858647" expanded="true" signature="28355:28367" ph="{% for group in request.user.groups.all  ... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/grafico_mobiliario2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="609" column="21" lean-forward="false" selection-start-line="609" selection-start-column="21" selection-end-line="609" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/grafico_vehiculo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="556" column="21" lean-forward="false" selection-start-line="556" selection-start-column="21" selection-end-line="556" selection-end-column="21" />
+          <folding>
+            <marker date="1500152857746" expanded="true" signature="28353:28365" ph="{% for group in request.user.groups.all  ... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/graficos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="502" column="21" lean-forward="false" selection-start-line="502" selection-start-column="21" selection-end-line="502" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/inventario_mobiliario_agencia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="520" column="21" lean-forward="false" selection-start-line="520" selection-start-column="21" selection-end-line="520" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/lista_existencias_articulosPDF.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="505" column="21" lean-forward="false" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/lista_vehiculo_descargar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="507" column="21" lean-forward="false" selection-start-line="507" selection-start-column="21" selection-end-line="507" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_articulosEntradas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="512" column="21" lean-forward="false" selection-start-line="512" selection-start-column="21" selection-end-line="512" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_entradas_modificar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="512" column="21" lean-forward="false" selection-start-line="512" selection-start-column="21" selection-end-line="512" selection-end-column="21" />
+          <folding>
+            <marker date="1500153212867" expanded="true" signature="27035:27047" ph="{% for group in request.user.groups.all  ... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_incidente_articulo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="507" column="21" lean-forward="false" selection-start-line="507" selection-start-column="21" selection-end-line="507" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_inmueble_asignar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="507" column="21" lean-forward="false" selection-start-line="507" selection-start-column="21" selection-end-line="507" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_inmueble_descargar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="514" column="21" lean-forward="false" selection-start-line="514" selection-start-column="21" selection-end-line="514" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_inmueble_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="507" column="21" lean-forward="false" selection-start-line="507" selection-start-column="21" selection-end-line="507" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_inmueble_modificar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="514" column="21" lean-forward="false" selection-start-line="514" selection-start-column="21" selection-end-line="514" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_mobiliario_prestado_solo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="505" column="21" lean-forward="false" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+          <folding>
+            <marker date="1500153212588" expanded="true" signature="26866:26878" ph="{% for group in request.user.groups.all  ... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_modificar_articulo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="514" column="21" lean-forward="false" selection-start-line="514" selection-start-column="21" selection-end-line="514" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_modificar_mobiliario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="513" column="21" lean-forward="false" selection-start-line="513" selection-start-column="21" selection-end-line="513" selection-end-column="21" />
+          <folding>
+            <marker date="1500153214316" expanded="true" signature="27035:27047" ph="{% for group in request.user.groups.all  ... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_proveedor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="513" column="21" lean-forward="false" selection-start-line="513" selection-start-column="21" selection-end-line="513" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_proveedor_modificar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="513" column="21" lean-forward="false" selection-start-line="513" selection-start-column="21" selection-end-line="513" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_vehiculos_asinar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="507" column="21" lean-forward="false" selection-start-line="507" selection-start-column="21" selection-end-line="507" selection-end-column="21" />
+          <folding>
+            <marker date="1500153213788" expanded="true" signature="26862:26874" ph="{% for group in request.user.groups.all  ... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/listar_vehiculos_modificar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="514" column="21" lean-forward="false" selection-start-line="514" selection-start-column="21" selection-end-line="514" selection-end-column="21" />
+          <folding>
+            <marker date="1500153213507" expanded="true" signature="27036:27048" ph="{% for group in request.user.groups.all  ... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/mobiliario_prestadoe3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="520" column="21" lean-forward="false" selection-start-line="520" selection-start-column="21" selection-end-line="520" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/modificar_articulo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="530" column="21" lean-forward="false" selection-start-line="530" selection-start-column="21" selection-end-line="530" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/modificar_entrada.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="572" column="21" lean-forward="false" selection-start-line="572" selection-start-column="21" selection-end-line="572" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/modificar_inmueble.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="561" column="21" lean-forward="false" selection-start-line="561" selection-start-column="21" selection-end-line="561" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/modificar_mobiliario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="565" column="21" lean-forward="false" selection-start-line="565" selection-start-column="21" selection-end-line="565" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/modificar_proveedor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/modificar_vehiculo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="568" column="21" lean-forward="false" selection-start-line="568" selection-start-column="21" selection-end-line="568" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/nueva_entrada.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="286" column="21" lean-forward="false" selection-start-line="286" selection-start-column="21" selection-end-line="286" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/nueva_salida.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="537" column="21" lean-forward="false" selection-start-line="537" selection-start-column="21" selection-end-line="537" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/nuevo_articulo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="517" column="21" lean-forward="false" selection-start-line="517" selection-start-column="21" selection-end-line="517" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/nuevo_detalle_articulo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="582" column="21" lean-forward="false" selection-start-line="582" selection-start-column="21" selection-end-line="582" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/nuevo_detalle_salida.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="555" column="21" lean-forward="false" selection-start-line="555" selection-start-column="21" selection-end-line="555" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/nuevo_detalle_salida_get.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="534" column="21" lean-forward="false" selection-start-line="534" selection-start-column="21" selection-end-line="534" selection-end-column="21" />
+          <folding>
+            <marker date="1500153213960" expanded="true" signature="27356:27368" ph="{% for group in request.user.groups.all  ... %}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/nuevo_inmueble.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="548" column="21" lean-forward="false" selection-start-line="548" selection-start-column="21" selection-end-line="548" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/nuevo_mobiliario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="567" column="21" lean-forward="false" selection-start-line="567" selection-start-column="21" selection-end-line="567" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/nuevo_proveedor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="562" column="21" lean-forward="false" selection-start-line="562" selection-start-column="21" selection-end-line="562" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/nuevo_vehiculo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="558" column="21" lean-forward="false" selection-start-line="558" selection-start-column="21" selection-end-line="558" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/prueba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="505" column="21" lean-forward="false" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/registrar_incidencia_articulo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="540" column="21" lean-forward="false" selection-start-line="540" selection-start-column="21" selection-end-line="540" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/salidas_fecha.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="538" column="21" lean-forward="false" selection-start-line="538" selection-start-column="21" selection-end-line="538" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/ver_det_incidencias.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="505" column="21" lean-forward="false" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/ver_entradas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="505" column="21" lean-forward="false" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/ver_existencias.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="505" column="21" lean-forward="false" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/ver_no_existencias.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="505" column="21" lean-forward="false" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inventario/ver_salidas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="505" column="21" lean-forward="false" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventariohonducorapp/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3910">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#98#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InventarioHONDUCOR/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3317">
+          <caret line="222" column="79" lean-forward="false" selection-start-line="222" selection-start-column="59" selection-end-line="222" selection-end-column="79" />
+          <folding>
+            <element signature="e#842#883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventariohonducorapp/pdf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <marker date="1500162688937" expanded="true" signature="48000:48267" ph="select m.id,... inventariohonducorapp_tb_mobiliario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventariohonducorapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35853">
+          <caret line="2151" column="37" lean-forward="false" selection-start-line="2151" selection-start-column="37" selection-end-line="2151" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1500161385374" expanded="true" signature="3388:3482" ph="select nombr... inventariohonducorapp_tb_articulo" />
+            <marker date="1500161385374" expanded="true" signature="3802:3809" ph="select nombr... inventariohonducorapp_tb_articulo" />
+            <marker date="1500161385374" expanded="true" signature="3802:3965" ph="select a.nom... inventariohonducorapp_tb_detalle_salida" />
+            <marker date="1500161385374" expanded="true" signature="3802:4022" ph="select a.nom... inventariohonducorapp_tb_detalle_salida" />
+            <marker date="1500161385374" expanded="true" signature="3802:4038" ph="select a.nom... inventariohonducorapp_tb_detalle_salida" />
+            <marker date="1500161385374" expanded="true" signature="3802:4049" ph="select a.nom... inventariohonducorapp_tb_detalle_salida" />
+            <marker date="1500161385374" expanded="true" signature="3802:4141" ph="select a.nom... inventariohonducorapp_tb_detalle_salida" />
+            <marker date="1500161385374" expanded="true" signature="4814:5017" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+            <marker date="1500161385374" expanded="true" signature="4814:5159" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+            <marker date="1500161385374" expanded="true" signature="4814:5180" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+            <marker date="1500161385374" expanded="true" signature="5817:6169" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+            <marker date="1500161385374" expanded="true" signature="5817:6190" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+            <marker date="1500161385374" expanded="true" signature="5817:6193" ph="select s.age... inventariohonducorapp_tb_detallearticulo" />
+            <marker date="1500161385374" expanded="true" signature="6838:6845" ph="select nombr... inventariohonducorapp_tb_articulo" />
+            <marker date="1500161385374" expanded="true" signature="6838:7043" ph="select c.nom... inventariohonducorapp_tb_mobiliario" />
+            <marker date="1500161385374" expanded="true" signature="7619:7824" ph="select m.ubi... inventariohonducorapp_tb_mobiliario" />
+            <marker date="1500161385374" expanded="true" signature="8300:8404" ph="select tipo_... inventariohonducorapp_tb_vehiculo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
